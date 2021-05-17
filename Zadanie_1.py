@@ -9,6 +9,6 @@ def function(num_1, num_2):
         return "Ошибка, введено неверное значение."
     except ZeroDivisionError:
         return "Ошибка деления на 0"
-    return round(div_num, 4)
+    return round(div_num, 2)
 
 print(function(input("Введите первое число: "), input("Введите второе число: ")))
